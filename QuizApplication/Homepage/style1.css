@@ -1,0 +1,147 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.navbar {
+    background-color: darkred; 
+    padding: 10px 0; 
+    color:#fff;
+}
+
+.navbar nav ul {
+    list-style-type: none; 
+    padding: 0;
+    text-align: center; 
+}
+
+.navbar nav ul li {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+.navbar nav ul li a {
+    text-decoration: none; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    background-color: #0056b3; 
+}
+
+.navbar nav ul li a:hover {
+    background-color: #004080; 
+}
+
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
+/* Heading styles */
+h1, h2 {
+    text-align: center;
+    color: blue;
+}
+p{
+    font-size: 22px;
+    font-family: Roboto Slab;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color:lightsalmon; 
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Quiz form styles */
+form {
+    margin-top: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Button styles */
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color:grey;
+    color:white;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; /* Center-align buttons */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Quiz question styles */
+.question {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Options container styles */
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Message styles */
+.message {
+    text-align: center;
+    color: #333;
+}
+
+button[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
